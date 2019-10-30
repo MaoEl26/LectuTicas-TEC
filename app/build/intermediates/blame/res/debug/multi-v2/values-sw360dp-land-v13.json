@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-land-v13\\values-sw360dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\src\\main\\res\\values-sw360dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,153",
+                        "endColumns": "64,63",
+                        "endOffsets": "148,212"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,120",
+                        "endColumns": "64,63",
+                        "endOffsets": "115,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\src\\main\\res\\values-sw720dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,8,6,7,10,16,15,12,13,9,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "88,146,202,244,438,310,374,559,830,775,613,664,499,724",
+                        "endColumns": "57,55,41,65,60,63,63,52,46,54,50,59,59,50",
+                        "endOffsets": "141,197,239,305,494,369,433,607,872,825,659,719,554,770"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,211,277,338,402,466,519,566,621,672,732,792",
+                        "endColumns": "57,55,41,65,60,63,63,52,46,54,50,59,59,50",
+                        "endOffsets": "108,164,206,272,333,397,461,514,561,616,667,727,787,838"
+                    }
+                }
+            ]
+        }
+    ]
+}

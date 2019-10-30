@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\src\\main\\res\\values-v17\\styles.xml",
+                    "from": {
+                        "startLines": "18,2,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "773,55,520",
+                        "endLines": "29,10,16",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1409,514,767"
+                    },
+                    "to": {
+                        "startLines": "2,62,71",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,3567,4031",
+                        "endLines": "13,70,75",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "691,4026,4278"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Juan Diego\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8f5ac1a546716977861d0e1dc490aac3\\res\\values-v17\\values-v17.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
+                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
+                    },
+                    "to": {
+                        "startLines": "14,17,21,24,27,30,34,38,41,44,47,51,54,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "696,869,1097,1255,1405,1577,1805,2047,2218,2392,2561,2834,3034,3238",
+                        "endLines": "16,20,23,26,29,33,37,40,43,46,50,53,57,61",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "864,1092,1250,1400,1572,1800,2042,2213,2387,2556,2829,3029,3233,3562"
+                    }
+                }
+            ]
+        }
+    ]
+}

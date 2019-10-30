@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cr.ac.tec.lectuticas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Optional permission for Analytics to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/icono_lectuticas"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <activity
+            android:name="cr.ac.tec.lectuticas.Activities.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cr.ac.tec.lectuticas.Activities.LeyendasActivity"
+            android:parentActivityName="cr.ac.tec.lectuticas.Activities.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="cr.ac.tec.lectuticas.Activities.AcercaActivity"
+            android:parentActivityName="cr.ac.tec.lectuticas.Activities.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="cr.ac.tec.lectuticas.Activities.LecturaCuentoActivity"
+            android:parentActivityName="cr.ac.tec.lectuticas.Activities.LeyendasActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.LeyendasActivity" />
+        </activity>
+        <activity
+            android:name="cr.ac.tec.lectuticas.Activities.PreguntasCuentoActivity"
+            android:parentActivityName="cr.ac.tec.lectuticas.Activities.LeyendasActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.LeyendasActivity" />
+        </activity>
+        <activity
+            android:name="cr.ac.tec.lectuticas.Activities.IniciarPreguntasCuentoActivity"
+            android:parentActivityName="cr.ac.tec.lectuticas.Activities.LecturaCuentoActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.LecturaCuentoActivity" />
+        </activity>
+        <activity
+            android:name="cr.ac.tec.lectuticas.Activities.ResultadoPreguntasActivity"
+            android:parentActivityName="cr.ac.tec.lectuticas.Activities.LeyendasActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.LeyendasActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/global_tracker" />
+
+        <activity android:name="cr.ac.tec.lectuticas.Activities.PreguntasActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="cr.ac.tec.lectuticas.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

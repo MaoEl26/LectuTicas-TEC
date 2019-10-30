@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw480dp-v13\\values-sw480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Juan Diego\\Desktop\\Entregables LectuTicas\\Leyendas-datosLocales\\app\\src\\main\\res\\values-sw480dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,6,9,7,8,11,17,16,13,14,10,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "88,146,202,245,438,310,374,559,829,774,612,663,499,723",
+                        "endColumns": "57,55,41,64,60,63,63,51,45,54,50,59,59,50",
+                        "endOffsets": "141,197,239,305,494,369,433,606,870,824,658,718,554,769"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,211,276,337,401,465,517,563,618,669,729,789",
+                        "endColumns": "57,55,41,64,60,63,63,51,45,54,50,59,59,50",
+                        "endOffsets": "108,164,206,271,332,396,460,512,558,613,664,724,784,835"
+                    }
+                }
+            ]
+        }
+    ]
+}

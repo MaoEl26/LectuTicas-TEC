@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="design_navigation_max_width">320dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0dp</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2dp</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24dp</dimen>
+    <dimen name="design_snackbar_max_width">576dp</dimen>
+    <dimen name="design_snackbar_min_width">320dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</dimen>
+    <dimen name="design_tab_scrollable_min_width">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margen_botones_activity_principal">80dp</dimen>
+    <dimen name="margen_botones_paginas_cuento">25dp</dimen>
+    <dimen name="margen_botones_seleccion_historia">5dp</dimen>
+    <dimen name="margen_layout_seleccion_historia">20dp</dimen>
+    <dimen name="tamaño_boton_cuentos">50dp</dimen>
+    <dimen name="tamaño_botones">100dp</dimen>
+    <dimen name="tamaño_botones_grandes">150dp</dimen>
+    <dimen name="tamaño_texto_cuerpo">20sp</dimen>
+    <dimen name="tamaño_texto_cuerpo_pregunta">24sp</dimen>
+    <dimen name="tamaño_texto_parrafo_cuentos">24sp</dimen>
+    <dimen name="tamaño_texto_titulo">28sp</dimen>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>
